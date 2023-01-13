@@ -17,7 +17,7 @@ public class Main {
 		int i = 0;
 		do {
 			
-			System.out.println("Inserisci dettagli media in questo ordine separati da una virgola: titolo, durata, volume, luminosità");
+			System.out.println("Inserisci dettagli media in questo ordine separati da una virgola e senza spazi: titolo, durata, volume, luminosità");
 			String det = input.nextLine();
 			String[] values = det.split(",");
 			if(values[1]==null) {
@@ -35,7 +35,7 @@ public class Main {
 			
 		}while(media.length<5);
 		System.out.println(media);
-		
+		input.close();
 		
 
 
