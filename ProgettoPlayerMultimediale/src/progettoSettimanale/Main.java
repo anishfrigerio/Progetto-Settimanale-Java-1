@@ -14,8 +14,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		ElementoMultimediale[] media = {};
+		int i = 0;
 		do {
-			int i = 0;
+			
 			System.out.println("Inserisci dettagli media in questo ordine separati da una virgola: titolo, durata, volume, luminosità");
 			String det = input.nextLine();
 			String[] values = det.split(",");
