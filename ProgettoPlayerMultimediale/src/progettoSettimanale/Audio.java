@@ -38,6 +38,7 @@ public class Audio extends ElementoMultimediale implements ElementoRiproducibile
 	@Override
 	public void play() {
 		// TODO Auto-generated method stub
+		System.out.println(this.getTitle()+ this.getDurata() + dispVol);
 		
 		
 	}
